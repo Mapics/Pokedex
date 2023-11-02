@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.headerpokedex {
+  background-color: #282c34;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: blue;
+}
+
+.headercontainer {
+  margin: auto;
+  width: fill;
+  height: 100px;
+  display: flex;
+  justify-content: space space-between;
+  align-items: stretch;
+  font-size: calc(10px + 2vmin);
+  background-color: red;
+}
+
+.pokelogo {
+  height: 100px;
+  width: 130px;
+  margin: left;
+  margin-left: 5%;
+  display: flex;
+  align-items: left;
+}
