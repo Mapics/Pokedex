@@ -67,3 +67,30 @@
   display: flex;
   align-items: left;
 }
+
+/* Styles pour la liste des Pokémon */
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Pour espacer les cartes équitablement */
+  padding: 0;
+}
+
+/* Styles pour chaque carte Pokémon */
+.pokemon-card {
+  width: 19%; /* Pour que 5 cartes tiennent sur une ligne (100% / 5 = 20%) */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le contenu de chaque carte */
+.pokemon-details {
+  margin-top: 10px;
+}
+
+/* Reste de tes styles pour la carte Pokémon (image, bouton, etc.) */

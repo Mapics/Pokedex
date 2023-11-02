@@ -30,11 +30,7 @@ export default function PokemonCard({pokemon}) {
       <div className="pokemon-details">
         <p>Nom: {pokemon.name}</p>
         <p>Numéro: {pokemonInfo.id}</p>
-
-        {/* <p>Types: {pokemonInfo.types.map((type, index) => (
-            <a key={index}>{type.type.name}</a>
-        ))}</p> */}
-
+        
         <p>Types: {pokemonInfo.types ? (pokemonInfo.types.map((type, index) => (
             <span key={index}>{type.type.name}{index < pokemonInfo.types.length - 1 ? ',' : ''}</span>
             ))
