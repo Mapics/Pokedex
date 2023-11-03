@@ -21,4 +21,4 @@ Un rapport détaillé sur ce projet est disponible dans le fichier [Nadjar-Matt-
 - Réutilisation de composants React pour une architecture modulaire.
 
 ## Disponible en ligne :
-<!-- host en ligne github -->
+https://mapics.github.io/Pokedex/
