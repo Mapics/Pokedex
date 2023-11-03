@@ -73,14 +73,15 @@ ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Pour espacer les cartes équitablement */
+  justify-content: center;
   padding: 0;
 }
 
 /* Styles pour chaque carte Pokémon */
 .pokemon-card {
-  width: 15%; /* Pour que 5 cartes tiennent sur une ligne (100% / 5 = 20%) */
+  width: 16%; /* Pour que 5 cartes tiennent sur une ligne (100% / 5 = 20%) */
   height: 340px;
+  margin-left: 25px;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -98,14 +99,33 @@ ul {
   margin-top: 30px;
 }
 
-/* Reste de tes styles pour la carte Pokémon (image, bouton, etc.) */
-
-/* .raise {
-  color: #426dfa;
-} */
-
 .raise:hover,
 .raise:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
+}
+
+.pokeball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.researchinput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  padding-right: 50px;
+}
+
+
+.researchDiv {
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }

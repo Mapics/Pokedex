@@ -12,18 +12,16 @@ function App() {
           <div className="headercontainer">
             <img className="pokelogo" src="./pokelogo.png" alt="Pokelogo" />
             
-            {/* <Link className="acceuilletext" to="/">Accueil</Link>  */}
             <Link className="pokedexbrowsertext" to="/PokedexBrowser">Pokedexbrowser</Link>
             <Link className="personalpokedextext" to="/PersonalPokedex">Personalpokedex</Link>
+
           </div>
         </div>
       </header>
       <body>
-        
         <Routes>
-          {/* <Route path="/" element={<Acceuil />} /> Utilise element pour rendre le composant */}
           <Route path="/pokedexbrowser" element={<PokedexBrowser />} /> {/* Utilise element pour rendre le composant */}
-          <Route path="/personalpokedex" element={<Personalpokedex />} /> {/* Utilise element pour rendre le composant */}
+          <Route path="/personalpokedex" element={<Personalpokedex/>}/>
         
         </Routes>
 
